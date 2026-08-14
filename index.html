@@ -3,17 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The Social My Business Accelerator | Private Local Buy/Sell/Trade Advertising</title>
-<meta name="description" content="Sponsored advertiser program for private local buy/sell/trade communities. A 30-minute lead generation consultation, year-round strategy access, unlimited posting, and capped competition. $75 for your first group. Call 1-800-481-8638.">
+<title>Local Group Advertising That Brings Customers | Social My Business Accelerator</title>
+<meta name="description" content="Advertise your local business inside private buy/sell/trade communities with 200,000+ members. Includes a 30-minute lead generation consultation, unlimited posting, featured placements, capped competition and admin support. $75 first group, $25 each additional. Call 1-800-481-8638.">
 <link rel="canonical" href="https://socialmybusiness.com/">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="author" content="Eye To Ad Media">
+<meta name="publisher" content="Search Converts LLC">
+<meta name="rating" content="general">
+<meta name="format-detection" content="telephone=yes">
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Social My Business">
+<meta property="og:locale" content="en_US">
 <meta property="og:title" content="3 ads. 160 leads. 12 hours.">
 <meta property="og:description" content="Private local buy/sell/trade communities, 200,000+ members, and a consultation that teaches you what to actually post. $75 for your first group.">
 <meta property="og:url" content="https://socialmybusiness.com/">
+<meta property="og:image" content="https://socialmybusiness.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="160 leads in 12 hours — Social My Business">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="3 ads. 160 leads. 12 hours.">
+<meta name="twitter:description" content="Private local buy/sell/trade communities and a consultation that teaches you what to actually post. $75 for your first group.">
+<meta name="twitter:image" content="https://socialmybusiness.com/og.png">
+
 <meta name="theme-color" content="#0A0C13">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230A0C13'/><circle cx='16' cy='16' r='7' fill='%23C6F542'/></svg>">
+<link rel="alternate" type="text/plain" href="https://socialmybusiness.com/llms.txt" title="Plain-text summary for AI agents">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -270,9 +286,90 @@ footer a:hover{color:var(--lime)}
   *{animation:none!important;transition-duration:.01ms!important}
   html{scroll-behavior:auto}
 }
+
+/* ---- skip link ---- */
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--lime);color:#0A0C13;padding:12px 18px;border-radius:0 0 12px 0;font-family:"JetBrains Mono",monospace;font-size:13px}
+.skip:focus{left:0}
+
+/* ---- hero h1 ---- */
+h1.hero-h1{font-family:"Space Grotesk",sans-serif;font-weight:700;letter-spacing:-.035em;margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:0 20px}
+
+/* ---- jump nav ---- */
+.jump{border-top:1px solid var(--line);padding:18px var(--pad);display:flex;gap:8px;flex-wrap:wrap;align-items:center;background:rgba(255,255,255,.015)}
+.jump span{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--mute);margin-right:6px}
+.jump a{font-family:"JetBrains Mono",monospace;font-size:11.5px;text-decoration:none;color:#C9CEDC;border:1px solid var(--line);padding:7px 13px;border-radius:100px;transition:border-color .16s,color .16s}
+.jump a:hover{border-color:var(--lime);color:var(--lime)}
+
+/* ---- answer block ---- */
+.answer{border-left:2px solid var(--lime);padding:2px 0 2px 22px;margin:0 0 30px}
+.answer p{font-size:clamp(17px,2.1vw,20px);color:#E4E8F2;max-width:64ch;margin:0}
+
+/* ---- key facts ---- */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:28px 0 8px}
+.facts>div{background:#0E1119;padding:18px 18px}
+.facts dt{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--mute);margin-bottom:8px}
+.facts dd{margin:0;font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:18px;letter-spacing:-.025em;color:var(--text);line-height:1.3}
+.facts dd em{font-style:normal;color:var(--lime)}
+
+/* ---- steps ---- */
+.steps{list-style:none;counter-reset:s;padding:0;margin:24px 0 0}
+.steps li{counter-increment:s;position:relative;padding:0 0 26px 62px;border-left:1px solid var(--line);margin-left:16px}
+.steps li:last-child{border-left-color:transparent;padding-bottom:0}
+.steps li::before{
+  content:counter(s,decimal-leading-zero);position:absolute;left:-16px;top:-2px;
+  font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:600;color:var(--lime);
+  width:33px;height:33px;display:grid;place-items:center;border-radius:11px;background:#0E1119;border:1px solid rgba(198,245,66,.3);
+}
+.steps h4{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:18px;letter-spacing:-.03em;margin:4px 0 6px}
+.steps p{margin:0;font-size:15.5px;color:var(--mute);max-width:60ch}
+
+/* ---- principle cards ---- */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));gap:14px;margin-top:26px}
+.pc{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}
+.pc h4{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:17px;letter-spacing:-.03em;margin:0 0 8px;color:var(--text)}
+.pc p{margin:0;font-size:15px;color:var(--mute);max-width:none}
+.pc .tagno{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.1em;color:var(--lime);display:block;margin-bottom:12px}
+
+/* ---- compare ---- */
+.tablewrap{overflow-x:auto;margin-top:26px;border:1px solid var(--line);border-radius:16px}
+table.cmp{width:100%;border-collapse:collapse;min-width:640px;font-size:15px}
+table.cmp th,table.cmp td{text-align:left;padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+table.cmp thead th{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--mute);background:rgba(255,255,255,.03)}
+table.cmp tbody th{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:15.5px;letter-spacing:-.02em;color:var(--text);white-space:nowrap}
+table.cmp td{color:var(--mute)}
+table.cmp tr:last-child th,table.cmp tr:last-child td{border-bottom:0}
+table.cmp tr.us th{color:var(--lime)}
+table.cmp tr.us{background:rgba(198,245,66,.05)}
+
+/* ---- rule list ---- */
+.rules{list-style:none;padding:0;margin:22px 0 0}
+.rules li{position:relative;padding:11px 0 11px 30px;border-bottom:1px solid var(--line);font-size:15.5px;color:#C9CEDC}
+.rules li::before{content:"";position:absolute;left:4px;top:20px;width:7px;height:7px;border-radius:50%;background:var(--lime)}
+.rules li b{color:var(--text);font-weight:600}
+
+/* ---- industry tags ---- */
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.tags span{font-size:14px;color:#C9CEDC;background:var(--panel);border:1px solid var(--line);padding:8px 14px;border-radius:100px}
+
+/* ---- inline cta ---- */
+.ctastrip{
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;
+  background:linear-gradient(150deg,rgba(198,245,66,.14),rgba(255,255,255,.03));
+  border:1px solid rgba(198,245,66,.35);border-radius:20px;padding:26px;margin-top:34px;
+}
+.ctastrip p{margin:0;max-width:42ch;color:#D6DAE6}
+.ctastrip strong{color:#fff;font-weight:600}
+.ctastrip a{
+  font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:17px;letter-spacing:-.025em;
+  background:var(--lime);color:#0A0C13;text-decoration:none;padding:15px 26px;border-radius:100px;white-space:nowrap;
+  transition:transform .16s,box-shadow .16s;
+}
+.ctastrip a:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(198,245,66,.35)}
 </style>
 </head>
 <body>
+
+<a class="skip" href="#what">Skip to program details</a>
 
 <div class="glow"><b class="g1"></b><b class="g2"></b></div>
 <div class="grid-bg"></div>
@@ -290,7 +387,7 @@ footer a:hover{color:var(--lime)}
   <section class="frame on" data-f="1" aria-label="Frame 1 of 9">
     <div class="inner">
       <div class="eyebrow">A true story</div>
-      <div class="hero-line"><span class="hero-num" id="counter">0</span><span class="hero-tag">leads in 12 hours</span></div>
+      <h1 class="hero-h1"><span class="hero-num" id="counter">0</span><span class="hero-tag">leads in 12 hours</span></h1>
       <div class="chips" id="chips">
         <span>3 posts written</span><span>Zero ad spend</span><span>One local group</span><span>Overnight</span>
       </div>
@@ -419,39 +516,319 @@ footer a:hover{color:var(--lime)}
   </nav>
 </main>
 
-<!-- ============ DETAIL ============ -->
-<section class="sec">
+
+<nav class="jump" aria-label="Page sections">
+  <span>Jump to</span>
+  <a href="#what">What it is</a>
+  <a href="#how">How it works</a>
+  <a href="#included">What's included</a>
+  <a href="#posts">What makes a post work</a>
+  <a href="#compare">Vs other advertising</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#faq">FAQ</a>
+  <a href="#callback">Contact</a>
+</nav>
+
+<!-- WHAT IT IS -->
+<section class="sec" id="what">
   <div class="wrap">
-    <div class="eyebrow">The short version</div>
-    <h2>What you are actually buying</h2>
-    <p class="lede">The Social My Business Accelerator is a paid advertising and consulting program. You are buying strategy — a 30-minute consultation on ad optimization plus year-round access to that expertise. Approved sponsored advertiser status inside our private buy/sell/trade communities is included with the program.</p>
-    <p class="lede">Businesses cannot post in our communities without one-time admin approval. That approval is what the program covers, alongside the coaching that makes the posts actually work.</p>
+    <div class="eyebrow">What it is</div>
+    <h2>Local group advertising, done properly</h2>
 
-    <h3>Who it works for</h3>
-    <p>Home services, contractors, auto, cleaning, landscaping, real estate, salons, medical spas, restaurants, event promoters, retail, and anyone selling to local consumers. If your customer lives within driving distance, this fits.</p>
+    <div class="answer">
+      <p>The Social My Business Accelerator is a paid advertising and consulting program for local businesses. It includes a 30-minute lead generation consultation on ad optimization, year-round campaign support, and approved sponsored advertiser status inside private buy/sell/trade communities with more than 200,000 combined members. Pricing is $75 per month for your first group and $25 per month for each additional group, with a twelve-month commitment. Sign-up is by phone at 1-800-481-8638.</p>
+    </div>
 
-    <h3>Who it doesn't</h3>
-    <p>If you need a customer in another country, or you sell exclusively business to business at enterprise level, spend your money on search instead. We'll tell you that on the call rather than take it.</p>
+    <dl class="facts">
+      <div><dt>Program name</dt><dd>The Social My Business Accelerator</dd></div>
+      <div><dt>First group</dt><dd><em>$75</em> per month</dd></div>
+      <div><dt>Each additional group</dt><dd><em>$25</em> per month</dd></div>
+      <div><dt>Standard rate</dt><dd>$150 per group per month</dd></div>
+      <div><dt>Commitment</dt><dd>12 months</dd></div>
+      <div><dt>Event promotion</dt><dd>$100 per event, no commitment</dd></div>
+      <div><dt>Combined members</dt><dd>200,000+</dd></div>
+      <div><dt>Availability</dt><dd>United States, nationwide</dd></div>
+      <div><dt>Sign-up method</dt><dd>Phone, about 10 minutes</dd></div>
+      <div><dt>SEO clients</dt><dd><em>$0</em> — fees waived</dd></div>
+    </dl>
 
-    <div class="faq">
-      <details open><summary>How much does it cost?</summary><p>$75 per month for your first group and $25 per month for each additional group, currently half the standard $150 per group. Twelve-month commitment. Event promotions are $100 per event with no commitment.</p></details>
-      <details><summary>Why a twelve-month commitment?</summary><p>Because short runs don't work and we'd rather not take money for something that won't produce. Local communities buy from names they recognize. Recognition takes months of consistent presence, not a two-week test.</p></details>
-      <details><summary>Do you guarantee results?</summary><p>No. Nobody honest does. What we guarantee is the consultation, the posting access, the featured placements, the admin support, and a capped number of competitors in your category.</p></details>
-      <details><summary>What if a competitor is already in my group?</summary><p>Ask on the call. We limit advertisers per industry per group, and some categories are held exclusive. If someone is posting business ads without approval, report them and we remove them.</p></details>
-      <details><summary>How often can I post?</summary><p>As often as you want. The only rules are no stacking posts back to back and no spamming the group. Your consultation covers the cadence that actually performs.</p></details>
-      <details><summary>Are the groups public?</summary><p>No. All groups are private. Posts are only visible to members.</p></details>
-      <details><summary>How do I sign up?</summary><p>By phone. Call 1-800-481-8638 and it takes about ten minutes.</p></details>
+    <h3>What you are actually buying</h3>
+    <p>You are buying strategy and access. The strategy is the consultation: a working session with a lead generation expert on how your ads should be structured, when they should run, what makes people respond, and what quietly kills reach. The access is approved sponsored advertiser status, which is what lets a business post at all.</p>
+    <p>Our communities do not allow business posts by default. Somebody who tries gets a notice explaining that business posts require one-time admin approval. That approval is part of what this program covers, alongside the coaching that makes the posts worth approving in the first place.</p>
+    <p>This is not a lead list, a directory listing, or a database you get handed. Nothing about it is automated. You post, real local people see it, and the ones who want what you sell contact you directly.</p>
+
+    <h3>Why local groups work at all</h3>
+    <p>A buy/sell/trade community functions like a general store the whole neighborhood already walks through. People list a couch, a truck, a set of tools, a rental, sometimes a house. Members are not scrolling passively the way they do a news feed — they are shopping, and they are shopping locally. When a plumber, a roofer, a hairdresser or a cleaning service appears in that context and looks like a neighbor rather than a billboard, it does not read as an interruption. It reads as a recommendation.</p>
+    <p>That is the whole mechanism. There is no algorithm to beat and no auction to win. If your post is good and the group is real, people respond.</p>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="sec tint" id="how">
+  <div class="wrap">
+    <div class="eyebrow">How it works</div>
+    <h2>Five steps, start to posting</h2>
+    <ol class="steps">
+      <li>
+        <h4>Call 1-800-481-8638</h4>
+        <p>Tell us your business, your city, and what you sell. This takes a couple of minutes and there is no form to fill out first.</p>
+      </li>
+      <li>
+        <h4>We check availability in your category</h4>
+        <p>We cap advertisers per industry per group. If your category is already full in your market, we say so instead of taking your money. If exclusivity is still open, that is discussed here.</p>
+      </li>
+      <li>
+        <h4>Your 30-minute consultation</h4>
+        <p>A working session on ad optimization: structure, opening lines, offers, cadence, photos, how to handle replies, and the mistakes that make good businesses invisible. You leave with posts you can actually run.</p>
+      </li>
+      <li>
+        <h4>Approval and launch</h4>
+        <p>You are approved as a sponsored advertiser and can post immediately. Two complimentary featured posts are applied at sign-up so you start with visibility rather than building from zero.</p>
+      </li>
+      <li>
+        <h4>Ongoing support all year</h4>
+        <p>Reach out any time for feedback on a campaign, a second opinion on an offer, or help when something is not landing. Featured placements continue throughout the year, and admin support handles any spammers or trolls.</p>
+      </li>
+    </ol>
+
+    <div class="ctastrip">
+      <p><strong>Ten minutes on the phone is the entire sign-up.</strong> Ask whether your category is still open before someone else takes it.</p>
+      <a href="tel:18004818638">Call 1-800-481-8638</a>
     </div>
   </div>
 </section>
 
+<!-- INCLUDED -->
+<section class="sec" id="included">
+  <div class="wrap">
+    <div class="eyebrow">What's included</div>
+    <h2>Everything in the program</h2>
+
+    <h3>30-minute lead generation consultation</h3>
+    <p>One-on-one with someone who has run this for a decade. The difference between twenty posts that produce nothing and two that fill a calendar is not effort or budget — it is what is in the post. This session is where that gets fixed, and it covers a few approaches we do not publish anywhere.</p>
+
+    <h3>Year-round strategy access</h3>
+    <p>Campaigns drift. Offers get stale. Seasons change what people respond to. You can reach out through the year for ideas and feedback at no additional cost, as long as the time is respected. Most sponsors use this a handful of times a year and it is the part they say they did not expect.</p>
+
+    <h3>Unlimited posting</h3>
+    <p>There is no cap on how often you post. The two rules are that you do not stack posts back to back and you do not spam the group. Your consultation covers the cadence that actually performs, which for most businesses is far less often than they assume.</p>
+
+    <h3>Featured posts</h3>
+    <p>Featured placements throughout the year, plus two complimentary featured posts applied the day you sign up. Featured posts sit where members see them rather than sinking as new listings arrive.</p>
+
+    <h3>Capped competition and exclusivity</h3>
+    <p>We limit how many advertisers we approve per industry, per group. Some categories are held fully exclusive to a single partner. If a competitor is posting business ads without approval, report them and we remove them. This is the part that makes the placement worth something, and it is the reason we cannot sell it to everyone who calls.</p>
+
+    <h3>Admin protection</h3>
+    <p>If a spammer or a troll starts giving you a hard time on one of your posts, message an admin and it is handled. You are not managing that alone in a group you do not control.</p>
+
+    <h3>Private, members-only communities</h3>
+    <p>Every group is private. If you are not a member, you do not see what is posted. That keeps the audience real and keeps your offers away from competitors who are not in the program.</p>
+  </div>
+</section>
+
+<!-- WHAT MAKES A POST WORK -->
+<section class="sec tint" id="posts">
+  <div class="wrap">
+    <div class="eyebrow">The actual craft</div>
+    <h2>What makes a group post work</h2>
+    <p>These are the principles the consultation goes deeper on. They are here because businesses deserve to know what they are buying, and because most posts fail for reasons that are entirely fixable.</p>
+
+    <div class="cards">
+      <div class="pc">
+        <span class="tagno">01</span>
+        <h4>The first line decides everything</h4>
+        <p>Members see one line before deciding whether to expand. "ABC Plumbing — licensed and insured, serving the area since 2004" gets scrolled past. A specific situation someone is having right now does not. Lead with the problem, not with your credentials.</p>
+      </div>
+      <div class="pc">
+        <span class="tagno">02</span>
+        <h4>One offer, not a service menu</h4>
+        <p>Listing everything you do reads as a brochure and converts like one. A single concrete offer with a real number attached gives people something to say yes to. Post the other services another week.</p>
+      </div>
+      <div class="pc">
+        <span class="tagno">03</span>
+        <h4>Photos of your actual work</h4>
+        <p>Stock photography is recognized instantly and it costs you trust. A slightly imperfect photo of a job you finished last Tuesday outperforms a polished image of somebody else's work every time.</p>
+      </div>
+      <div class="pc">
+        <span class="tagno">04</span>
+        <h4>Write like a member, not a brand</h4>
+        <p>These groups are neighbors talking to neighbors. Marketing voice stands out in the wrong way. Plain first-person language reads as a person who happens to run a business, which is exactly what you are.</p>
+      </div>
+      <div class="pc">
+        <span class="tagno">05</span>
+        <h4>Cadence beats volume</h4>
+        <p>Posting daily trains people to skip you and irritates the group. A steady rhythm with genuinely different posts builds recognition. Recognition is what makes someone call you six weeks later when they finally need the thing.</p>
+      </div>
+      <div class="pc">
+        <span class="tagno">06</span>
+        <h4>Answer fast, in the thread</h4>
+        <p>Speed of reply is one of the largest differences between sponsors who do well and sponsors who do not. Public replies also work as proof for everyone else reading, so answer in the comments before moving to messages.</p>
+      </div>
+      <div class="pc">
+        <span class="tagno">07</span>
+        <h4>Make the next step obvious and small</h4>
+        <p>"Contact us for a consultation" is work. "Comment your zip code and I'll tell you if we cover you" is not. The smaller the ask, the more people take it, and a comment thread pulls in people who were only half looking.</p>
+      </div>
+      <div class="pc">
+        <span class="tagno">08</span>
+        <h4>Show up as a member too</h4>
+        <p>Sponsors who occasionally answer an unrelated question or help a neighbor find something get treated as part of the community. That standing is worth more than any single post and it cannot be bought.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RULES -->
+<section class="sec">
+  <div class="wrap">
+    <div class="eyebrow">Ground rules</div>
+    <h2>What we expect from sponsors</h2>
+    <p>These exist so the groups stay worth advertising in. A community full of business posts stops being a community, and then the advertising stops working for everybody in it.</p>
+    <ul class="rules">
+      <li><b>No stacked posts.</b> Do not publish back-to-back posts that push other members down the group.</li>
+      <li><b>No spam.</b> Unlimited posting is a privilege that assumes judgment. Repetitive identical posts are spam regardless of frequency.</li>
+      <li><b>Approval is required before posting.</b> Business posts without one-time admin approval are removed.</li>
+      <li><b>Keep it accurate.</b> Real prices, real availability, real photos of real work.</li>
+      <li><b>Handle replies professionally.</b> Public arguments in the comments cost you far more than the sale you were defending.</li>
+      <li><b>Report problems rather than fighting them.</b> Message an admin about trolls or unapproved competitors and it gets handled.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- WHO -->
 <section class="sec tint">
+  <div class="wrap">
+    <div class="eyebrow">Fit</div>
+    <h2>Who this works for</h2>
+    <p>If your customer lives within driving distance of you, this fits. Local service businesses do best because their buyers are already in the group and the purchase is usually urgent.</p>
+    <div class="tags">
+      <span>Plumbing</span><span>HVAC</span><span>Roofing</span><span>Electrical</span><span>Painting</span>
+      <span>Landscaping &amp; lawn</span><span>Tree service</span><span>Concrete &amp; asphalt</span><span>Handyman</span>
+      <span>Remodeling</span><span>Flooring &amp; tile</span><span>Cleaning services</span><span>Junk removal</span>
+      <span>Moving</span><span>Pest control</span><span>Auto repair</span><span>Auto glass</span><span>Detailing</span>
+      <span>Towing</span><span>Real estate</span><span>Property management</span><span>Insurance</span>
+      <span>Salons &amp; barbers</span><span>Med spas</span><span>Dental &amp; ortho</span><span>Chiropractic</span>
+      <span>Fitness &amp; training</span><span>Restaurants</span><span>Catering</span><span>Food trucks</span>
+      <span>Photography</span><span>Event promoters</span><span>Childcare</span><span>Pet services</span>
+      <span>Retail &amp; resale</span><span>Storage</span><span>Solar</span><span>Security systems</span>
+    </div>
+
+    <h3>Who it does not work for</h3>
+    <p>If your customer is in another country, or you sell business to business at enterprise level with a long procurement cycle, your money is better spent on search visibility. We will tell you that on the phone rather than take the twelve-month commitment. There is no version of this where a national B2B software company gets results from a neighborhood buy/sell/trade group.</p>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section class="sec" id="compare">
+  <div class="wrap">
+    <div class="eyebrow">Comparison</div>
+    <h2>How it compares to other local advertising</h2>
+    <p>Honest version, without invented statistics. Every channel below works for somebody. What differs is what you control, what it costs to stay visible, and what happens the month you stop paying.</p>
+
+    <div class="tablewrap">
+      <table class="cmp">
+        <thead>
+          <tr><th scope="col">Channel</th><th scope="col">Strength</th><th scope="col">Weakness</th><th scope="col">When you stop paying</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Radio &amp; TV</th>
+            <td>Broad reach, builds name recognition fast in a metro</td>
+            <td>Little targeting, production costs, priced for larger budgets</td>
+            <td>Visibility ends immediately</td>
+          </tr>
+          <tr>
+            <th scope="row">Print &amp; direct mail</th>
+            <td>Tangible, works well for some older demographics</td>
+            <td>Cost per piece, slow feedback loop, hard to iterate</td>
+            <td>Visibility ends after the last drop</td>
+          </tr>
+          <tr>
+            <th scope="row">Paid social ads</th>
+            <td>Precise targeting, fast testing, scalable</td>
+            <td>Auction pricing rises with competition, needs constant creative and budget management</td>
+            <td>Traffic stops the same day</td>
+          </tr>
+          <tr>
+            <th scope="row">Search &amp; AI visibility</th>
+            <td>Highest intent, compounds over time, becomes an asset you own</td>
+            <td>Takes months to build, competitive in most markets</td>
+            <td>Rankings and citations persist for a while</td>
+          </tr>
+          <tr class="us">
+            <th scope="row">Group sponsorship</th>
+            <td>Flat monthly cost regardless of how much you post, warm local audience, capped competition</td>
+            <td>Requires consistency and posts that are actually good, local only</td>
+            <td>Posting access ends, but the reputation you built stays with members</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="margin-top:26px">The reason we push search alongside this: groups and SEO fail in opposite directions. Groups produce quickly and stop when you stop. Search takes months and keeps producing. Running both is why we waive sponsorship fees entirely for SEO clients — it is the combination that actually holds up over a few years.</p>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="sec tint" id="pricing">
+  <div class="wrap">
+    <div class="eyebrow">Pricing</div>
+    <h2>What it costs</h2>
+
+    <div class="answer">
+      <p>$75 per month for your first group and $25 per month for each additional group, currently half the standard rate of $150 per group per month. A twelve-month commitment is required. One-off event promotions are $100 per event with no commitment. Sponsorship fees are waived entirely for Eye To Ad Media SEO clients.</p>
+    </div>
+
+    <h3>Why there is a twelve-month commitment</h3>
+    <p>Because short runs do not work, and we would rather not take money for something that will not produce. Local communities buy from names they recognize, and recognition is built over months of consistent presence. A business that joins for two weeks, posts three times, sees nothing and leaves has learned nothing except that they wasted their money. The commitment protects the result as much as it protects us.</p>
+
+    <h3>Why it is priced the way it is</h3>
+    <p>Getting in front of thousands of local people several times a week through traditional channels is a four-figure monthly conversation in most markets. This is not, which means a single job for most service businesses covers months of it. That is the entire argument, and the calculator above lets you run it with your own numbers rather than ours.</p>
+
+    <h3>What is not included</h3>
+    <p>We do not write your posts for you, we do not run your account, and we do not guarantee a number of customers. Nobody honest guarantees that. What is guaranteed is the consultation, the posting access, the featured placements, the admin support, and the cap on competitors in your category.</p>
+
+    <div class="ctastrip">
+      <p><strong>Half price is limited.</strong> $75 for your first group, $25 for each additional. Ask about exclusivity while it is open.</p>
+      <a href="tel:18004818638">Call 1-800-481-8638</a>
+    </div>
+  </div>
+</section>
+
+<!-- SEO -->
+<section class="sec">
   <div class="wrap">
     <div class="eyebrow">Eye To Ad Media</div>
     <h2>Groups fill this week. <em>Search fills every week.</em></h2>
-    <p class="lede">Eye To Ad Media has been building search visibility for local businesses since 2012 — SEO, plus AIO and GEO, the work of getting your business named and cited by AI assistants when someone asks them for a recommendation.</p>
-    <p class="lede">Become an SEO client and your group sponsorship costs nothing. You get the long-term asset and the short-term lead source at the same time, for the price of one.</p>
-    <p class="small">Denver, Colorado. Serving businesses nationally. <a href="https://eyetoad.com" style="color:var(--lime)">eyetoad.com</a></p>
+    <p class="lede">Eye To Ad Media has been building search visibility for local businesses since 2012 — SEO, plus AIO and GEO, the work of getting your business named and cited by AI assistants when somebody asks one for a recommendation. That behavior is now a meaningful share of how people find local services, and the businesses being cited are the ones who built for it early.</p>
+    <p class="lede">Become an SEO client and your group sponsorship costs nothing. Every group, no charge, for as long as you are a client. You get the compounding asset and the immediate lead source at the same time, for the price of one.</p>
+    <p>Eye To Ad Media operates under Search Converts LLC out of Denver, Colorado, and serves businesses nationally. Ask about it on the call — for most businesses that were considering both, it works out cheaper than paying for them separately.</p>
+    <p class="small" style="margin-top:20px"><a href="https://eyetoad.com" style="color:var(--lime)">eyetoad.com</a></p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec tint" id="faq">
+  <div class="wrap">
+    <div class="eyebrow">Questions</div>
+    <h2>Frequently asked</h2>
+    <div class="faq">
+      <details open><summary>How much does it cost?</summary><p>$75 per month for your first group and $25 per month for each additional group, currently half the standard $150 per group. A twelve-month commitment is required. Event promotions are $100 per event with no commitment.</p></details>
+      <details><summary>Why is there a twelve-month commitment?</summary><p>Short runs do not work. Local communities buy from names they recognize, and recognition takes months of consistent presence rather than a two-week test. The commitment protects the result as much as it protects us.</p></details>
+      <details><summary>Do you guarantee results?</summary><p>No, and nobody honest does. What is guaranteed is the consultation, the posting access, the featured placements, the admin support, and a capped number of competitors in your category.</p></details>
+      <details><summary>What if a competitor is already in my group?</summary><p>Ask on the call. We limit advertisers per industry per group, and some categories are held fully exclusive. If a business is posting ads without admin approval, report them and we remove them.</p></details>
+      <details><summary>How often can I post?</summary><p>As often as you want. The only rules are no stacking posts back to back and no spamming the group. Your consultation covers the cadence that actually performs, which is usually less often than people assume.</p></details>
+      <details><summary>Are the groups public?</summary><p>No. Every group is private and posts are visible only to members.</p></details>
+      <details><summary>How many people will see my posts?</summary><p>Combined membership across our communities is over 200,000. Reach on any individual post depends on the group, the time, and how good the post is — which is exactly what the consultation addresses.</p></details>
+      <details><summary>Is this available outside Colorado?</summary><p>Yes. This is a national program with groups across multiple markets and more added regularly. Call and we will tell you what exists in your area.</p></details>
+      <details><summary>What if I only want to promote one event?</summary><p>Event promotions are $100 per event with no commitment and no ongoing subscription. Good for grand openings, sales, fundraisers and seasonal events.</p></details>
+      <details><summary>Can I get exclusivity in my industry?</summary><p>Sometimes. We cap advertisers per category per group and hold some categories fully exclusive to one partner. Availability depends on your market and who is already in. Ask on the call.</p></details>
+      <details><summary>Do you write my posts for me?</summary><p>No. We teach you how to write them in the consultation and give you feedback throughout the year. You know your business and your pricing better than we do, and posts written by the owner consistently outperform posts written by an agency.</p></details>
+      <details><summary>What happens after I sign up?</summary><p>You are approved as a sponsored advertiser, two complimentary featured posts are applied, your consultation is scheduled, and you can start posting immediately.</p></details>
+      <details><summary>Is sponsorship really free for SEO clients?</summary><p>Yes. Eye To Ad Media SEO clients pay nothing for group sponsorship, in every group, for as long as they are a client.</p></details>
+      <details><summary>How do I sign up?</summary><p>By phone at 1-800-481-8638. It takes about ten minutes. There is no online checkout because we confirm category availability in your market first.</p></details>
+    </div>
   </div>
 </section>
 
@@ -502,12 +879,14 @@ footer a:hover{color:var(--lime)}
   <div class="fwrap">
     <div>
       <div class="wordmark" style="margin-bottom:10px"><i></i>SocialMyBusiness</div>
-      A program of Eye To Ad Media · Search Converts LLC<br>1001 Bannock St #660, Denver, CO 80204
+      A program of Eye To Ad Media · Search Converts LLC<br>1001 Bannock St #660, Denver, CO 80204<br>
+      <span style="font-size:13px;opacity:.75">Sponsored advertiser program for private local buy/sell/trade communities. Nationwide.</span>
     </div>
     <div>
       <a href="tel:18004818638">1-800-481-8638</a><br>
       <a href="mailto:info@eyetoad.com">info@eyetoad.com</a><br>
-      <a href="https://eyetoad.com">eyetoad.com</a>
+      <a href="https://eyetoad.com">eyetoad.com</a><br>
+      <a href="/llms.txt" style="font-size:13px;opacity:.7">llms.txt</a>
     </div>
   </div>
 </footer>
@@ -516,18 +895,100 @@ footer a:hover{color:var(--lime)}
 {
 "@context":"https://schema.org",
 "@graph":[
-{"@type":"Organization","@id":"https://socialmybusiness.com/#org","name":"Social My Business","legalName":"Search Converts LLC","url":"https://socialmybusiness.com/","parentOrganization":{"@type":"Organization","name":"Eye To Ad Media","url":"https://eyetoad.com"},"telephone":"+1-800-481-8638","email":"info@eyetoad.com","address":{"@type":"PostalAddress","streetAddress":"1001 Bannock St #660","addressLocality":"Denver","addressRegion":"CO","postalCode":"80204","addressCountry":"US"},"areaServed":{"@type":"Country","name":"United States"}},
-{"@type":"WebSite","@id":"https://socialmybusiness.com/#website","url":"https://socialmybusiness.com/","name":"Social My Business","publisher":{"@id":"https://socialmybusiness.com/#org"}},
-{"@type":"Service","@id":"https://socialmybusiness.com/#service","name":"The Social My Business Accelerator","serviceType":"Social media advertising consultation and sponsored advertiser program","provider":{"@id":"https://socialmybusiness.com/#org"},"areaServed":{"@type":"Country","name":"United States"},"description":"A 30-minute lead generation consultation on ad optimization, year-round campaign strategy access, unlimited posting and featured placements in private local buy/sell/trade communities, capped competition per category, and admin support.","offers":[{"@type":"Offer","name":"First group sponsorship","price":"75","priceCurrency":"USD","description":"Per month, per group. Limited-time half price from $150. Twelve-month commitment.","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"Each additional group","price":"25","priceCurrency":"USD","description":"Per month, per additional group.","availability":"https://schema.org/InStock"},{"@type":"Offer","name":"Event promotion","price":"100","priceCurrency":"USD","description":"Per event. No commitment required.","availability":"https://schema.org/InStock"}]},
-{"@type":"FAQPage","@id":"https://socialmybusiness.com/#faq","mainEntity":[
+{
+ "@type":"Organization",
+ "@id":"https://socialmybusiness.com/#org",
+ "name":"Social My Business",
+ "alternateName":"The Social My Business Accelerator",
+ "legalName":"Search Converts LLC",
+ "url":"https://socialmybusiness.com/",
+ "logo":"https://socialmybusiness.com/og.png",
+ "image":"https://socialmybusiness.com/og.png",
+ "foundingDate":"2012",
+ "parentOrganization":{"@type":"Organization","name":"Eye To Ad Media","url":"https://eyetoad.com"},
+ "telephone":"+1-800-481-8638",
+ "email":"info@eyetoad.com",
+ "address":{"@type":"PostalAddress","streetAddress":"1001 Bannock St #660","addressLocality":"Denver","addressRegion":"CO","postalCode":"80204","addressCountry":"US"},
+ "areaServed":{"@type":"Country","name":"United States"},
+ "contactPoint":[{"@type":"ContactPoint","telephone":"+1-800-481-8638","contactType":"sales","email":"info@eyetoad.com","areaServed":"US","availableLanguage":"English"}]
+},
+{
+ "@type":"WebSite",
+ "@id":"https://socialmybusiness.com/#website",
+ "url":"https://socialmybusiness.com/",
+ "name":"Social My Business",
+ "description":"Sponsored advertiser program and lead generation consulting for local businesses advertising in private buy/sell/trade communities.",
+ "inLanguage":"en-US",
+ "publisher":{"@id":"https://socialmybusiness.com/#org"}
+},
+{
+ "@type":"WebPage",
+ "@id":"https://socialmybusiness.com/#webpage",
+ "url":"https://socialmybusiness.com/",
+ "name":"Local Group Advertising That Brings Customers | Social My Business Accelerator",
+ "isPartOf":{"@id":"https://socialmybusiness.com/#website"},
+ "about":{"@id":"https://socialmybusiness.com/#service"},
+ "primaryImageOfPage":"https://socialmybusiness.com/og.png",
+ "inLanguage":"en-US",
+ "speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer","h1.hero-h1"]}
+},
+{
+ "@type":"Service",
+ "@id":"https://socialmybusiness.com/#service",
+ "name":"The Social My Business Accelerator",
+ "serviceType":"Local social media advertising consultation and sponsored advertiser program",
+ "category":"Advertising and marketing services",
+ "provider":{"@id":"https://socialmybusiness.com/#org"},
+ "areaServed":{"@type":"Country","name":"United States"},
+ "audience":{"@type":"BusinessAudience","name":"Local service businesses and local retailers"},
+ "description":"A paid advertising and consulting program for local businesses. Includes a 30-minute lead generation consultation on ad optimization, year-round campaign support, approved sponsored advertiser status in private buy/sell/trade communities with over 200,000 combined members, unlimited posting, featured placements, capped competition per industry, and admin support. $75 per month for the first group and $25 per month for each additional group, with a twelve-month commitment.",
+ "termsOfService":"Twelve-month commitment required. Event promotions are $100 per event with no commitment.",
+ "hasOfferCatalog":{
+  "@type":"OfferCatalog",
+  "name":"Social My Business Accelerator pricing",
+  "itemListElement":[
+   {"@type":"Offer","name":"First group sponsorship","price":"75","priceCurrency":"USD","description":"Per month, per group. Limited-time half price from the standard $150. Twelve-month commitment required.","availability":"https://schema.org/InStock","priceSpecification":{"@type":"UnitPriceSpecification","price":"75","priceCurrency":"USD","unitCode":"MON","billingIncrement":1}},
+   {"@type":"Offer","name":"Each additional group","price":"25","priceCurrency":"USD","description":"Per month, for each group added beyond the first.","availability":"https://schema.org/InStock","priceSpecification":{"@type":"UnitPriceSpecification","price":"25","priceCurrency":"USD","unitCode":"MON","billingIncrement":1}},
+   {"@type":"Offer","name":"Event promotion","price":"100","priceCurrency":"USD","description":"Per event. No commitment required.","availability":"https://schema.org/InStock"},
+   {"@type":"Offer","name":"Sponsorship for Eye To Ad Media SEO clients","price":"0","priceCurrency":"USD","description":"Group sponsorship fees are waived entirely for active SEO clients of Eye To Ad Media.","availability":"https://schema.org/InStock"}
+  ]
+ }
+},
+{
+ "@type":"HowTo",
+ "@id":"https://socialmybusiness.com/#howto",
+ "name":"How to become a sponsored advertiser in a private local buy/sell/trade community",
+ "description":"The five-step process to join the Social My Business Accelerator and begin advertising in private local buy/sell/trade communities.",
+ "totalTime":"PT10M",
+ "estimatedCost":{"@type":"MonetaryAmount","currency":"USD","value":"75"},
+ "step":[
+  {"@type":"HowToStep","position":1,"name":"Call 1-800-481-8638","text":"Tell us your business, your city, and what you sell. This takes a couple of minutes and there is no form to fill out first."},
+  {"@type":"HowToStep","position":2,"name":"Check availability in your category","text":"Advertisers are capped per industry per group. If your category is already full in your market we say so. If exclusivity is still open, that is discussed here."},
+  {"@type":"HowToStep","position":3,"name":"Complete your 30-minute consultation","text":"A working session on ad optimization covering structure, opening lines, offers, cadence, photos, and handling replies."},
+  {"@type":"HowToStep","position":4,"name":"Get approved and launch","text":"You are approved as a sponsored advertiser and can post immediately. Two complimentary featured posts are applied at sign-up."},
+  {"@type":"HowToStep","position":5,"name":"Use year-round support","text":"Reach out any time for campaign feedback at no additional cost. Featured placements continue through the year and admin support handles spammers or trolls."}
+ ]
+},
+{
+ "@type":"FAQPage",
+ "@id":"https://socialmybusiness.com/#faq",
+ "mainEntity":[
 {"@type":"Question","name":"How much does the Social My Business Accelerator cost?","acceptedAnswer":{"@type":"Answer","text":"$75 per month for your first group and $25 per month for each additional group, currently half the standard $150 per group. A twelve-month commitment is required. Event promotions are $100 per event with no commitment."}},
-{"@type":"Question","name":"Why is a twelve-month commitment required?","acceptedAnswer":{"@type":"Answer","text":"Local communities buy from names they recognize, and recognition takes months of consistent presence rather than a two-week test. The commitment protects the results as much as the program."}},
-{"@type":"Question","name":"Do you guarantee results?","acceptedAnswer":{"@type":"Answer","text":"No. The program guarantees the consultation, posting access, featured placements, admin support, and a capped number of competitors in your category. It does not guarantee a specific number of customers."}},
-{"@type":"Question","name":"What if a competitor is already advertising in my group?","acceptedAnswer":{"@type":"Answer","text":"Advertisers are limited per industry per group and some categories are held fully exclusive. Businesses posting without admin approval are removed when reported."}},
-{"@type":"Question","name":"How often can I post?","acceptedAnswer":{"@type":"Answer","text":"There is no cap on posting frequency. Posts may not be stacked back to back and the group may not be spammed."}},
-{"@type":"Question","name":"Are the groups public?","acceptedAnswer":{"@type":"Answer","text":"No. All groups are private and posts are visible only to members."}},
-{"@type":"Question","name":"How do I sign up?","acceptedAnswer":{"@type":"Answer","text":"By phone at 1-800-481-8638. Sign-up takes about ten minutes."}}
-]}
+{"@type":"Question","name":"Why is there a twelve-month commitment?","acceptedAnswer":{"@type":"Answer","text":"Short runs do not work. Local communities buy from names they recognize, and recognition takes months of consistent presence rather than a two-week test. The commitment protects the result as much as it protects the program."}},
+{"@type":"Question","name":"Do you guarantee results?","acceptedAnswer":{"@type":"Answer","text":"No. What is guaranteed is the consultation, the posting access, the featured placements, the admin support, and a capped number of competitors in your category. A specific number of customers is not guaranteed."}},
+{"@type":"Question","name":"What if a competitor is already advertising in my group?","acceptedAnswer":{"@type":"Answer","text":"Advertisers are limited per industry per group and some categories are held fully exclusive. Businesses posting ads without admin approval are removed when reported."}},
+{"@type":"Question","name":"How often can I post?","acceptedAnswer":{"@type":"Answer","text":"There is no cap on posting frequency. Posts may not be stacked back to back and the group may not be spammed. The consultation covers the cadence that performs best."}},
+{"@type":"Question","name":"Are the groups public?","acceptedAnswer":{"@type":"Answer","text":"No. Every group is private and posts are visible only to members."}},
+{"@type":"Question","name":"How many people will see my posts?","acceptedAnswer":{"@type":"Answer","text":"Combined membership across the communities is over 200,000. Reach on any individual post depends on the group, the timing, and the quality of the post."}},
+{"@type":"Question","name":"Is this available outside Colorado?","acceptedAnswer":{"@type":"Answer","text":"Yes. This is a national program with groups across multiple markets and more added regularly."}},
+{"@type":"Question","name":"What if I only want to promote one event?","acceptedAnswer":{"@type":"Answer","text":"Event promotions are $100 per event with no commitment and no ongoing subscription."}},
+{"@type":"Question","name":"Can I get exclusivity in my industry?","acceptedAnswer":{"@type":"Answer","text":"Sometimes. Advertisers are capped per category per group and some categories are held fully exclusive to one partner. Availability depends on your market."}},
+{"@type":"Question","name":"Do you write my posts for me?","acceptedAnswer":{"@type":"Answer","text":"No. The consultation teaches you how to write them and feedback is available throughout the year. Posts written by the business owner consistently outperform posts written by an agency."}},
+{"@type":"Question","name":"What happens after I sign up?","acceptedAnswer":{"@type":"Answer","text":"You are approved as a sponsored advertiser, two complimentary featured posts are applied, your consultation is scheduled, and you can begin posting immediately."}},
+{"@type":"Question","name":"Is sponsorship really free for SEO clients?","acceptedAnswer":{"@type":"Answer","text":"Yes. Eye To Ad Media SEO clients pay nothing for group sponsorship, in every group, for as long as they are a client."}},
+{"@type":"Question","name":"How do I sign up?","acceptedAnswer":{"@type":"Answer","text":"By phone at 1-800-481-8638. Sign-up takes about ten minutes. There is no online checkout because category availability is confirmed by market first."}}
+ ]
+}
 ]}
 </script>
 
