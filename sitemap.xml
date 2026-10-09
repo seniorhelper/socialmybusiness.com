@@ -3,12 +3,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://socialmybusiness.com/</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://socialmybusiness.com/og.png</image:loc>
-      <image:title>160 leads in 12 hours — Social My Business</image:title>
+      <image:title>Social My Business: local group advertising that brings customers</image:title>
     </image:image>
   </url>
 </urlset>
